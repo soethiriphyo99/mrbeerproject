@@ -1,0 +1,422 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+.clear{
+	clear: both;
+}
+@font-face{
+	font-family: "great";
+	src:url(Grenze_Gotisch/bb.ttf);
+}
+
+nav.nav_background{
+	background-color: #141417;
+
+}
+.logo{
+
+	width: 130px;
+	height: 90px;
+	margin-left: 37px;
+	display: block;
+}
+.brand_name{
+	color: white;
+	text-decoration: none;
+	margin-left: 75px;
+}
+.nav_brand{
+	display: inline-block;
+	font-family: great;
+}
+.nav_background ul{
+	float: right;
+}
+.nav_background ul li{
+	padding-top: 41px;
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	margin-right: 60px;
+}
+.nav_background ul li.animate:hover{
+	color: gold;
+	transform: translate(5px,-5px);
+	transition-duration: 3s;
+
+
+}
+/*nav end*/
+/*nav background*/
+.background{
+	background-image: url(images/bg4.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+
+}
+div.beerbar{
+	position: absolute;
+	top: 300px;
+	left: 370px;
+	color: gold;
+	font-family: great;
+	font-size: 25px;
+}
+.button{
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	color: gold;
+	border-radius: 7px;
+	/*margin-left: 90px;*/
+}
+/*end nav background*/
+div#grid_body{
+	display: grid;
+	grid-template-columns: 600px auto auto;
+	background-color: #141417;
+	color: white;
+	height: 350px;
+
+
+}
+div#grid_body div{
+
+	
+	border:4px solid #141417;
+	background-color: black;
+	margin-top: 10px;
+	text-align: center;
+}
+div#grid_body div.grid_one{
+	grid-row-start:1; 
+	grid-row-end:3;
+	text-align: left;
+	padding:70px 30px 0 90px;
+}
+
+div#grid_body div.grid_one .perfect{
+	color: gold;
+	font-family: great;
+
+}
+.button1{
+	margin-top: 14px;
+	width: 100px;
+	height: 30px;
+	background-color: gold;
+	color: black;
+	border-radius: 7px;
+}
+div#grid_body div.grid_other{
+	padding-top: 40px;
+}
+div#grid_body div.grid_other h3{
+	color: gold;
+}
+div#grid_body div.grid_other p{
+	padding: 0 50px 30px 50px;
+}
+
+div.box img{
+	height:500px; 
+	width:350px;
+	margin-left: 90px;
+	margin-top:100px;
+	border: 1px solid black;
+	border-radius: 3px;
+	float: left;
+
+}
+.box_text{
+	position: relative;
+	top:150px;
+	 max-width: 90%;
+	left: 70px;
+
+}
+.box_text h2{
+	color:gold;
+	font-family: great;
+}
+div.background_body{
+	background-color: black;
+	height: 350px;
+	margin-top: 40px;
+
+}
+div.background_body_text{
+	position: relative;
+	left: 80px;
+	top: 80px;
+	color: white;
+	width: 35%;
+	float: left;
+}
+div.background_body_text h2{
+	color: gold;
+}
+.button2{
+	margin-top: 14px;
+	width: 100px;
+	height: 30px;
+	background-color: gold;
+	color: black;
+	border-radius: 7px;
+}
+.cans{
+	margin-left: 190px;
+	margin-top: 70px;
+}
+div.white_background .white_background_text{
+	width: 35%;
+	margin: 50px 0 0 150px;
+	float: left;
+}
+div.white_background .white_background_text h2{
+	font-size: 30px;
+	color: gold;
+}
+
+
+div.white_background .div2{
+	width: 35%;
+	float: left;
+	margin: 50px 0 0 100px;
+	/*padding-top: 50px;*/
+	/*margin-right: 100px;*/
+
+}
+div.white_background .div2 h2{
+	font-size: 30px;
+	color: gold;
+}
+.button_read1{
+	margin-top: 14px;
+	width: 100px;
+	height: 30px;
+	background-color: gold;
+	color: black;
+	border-radius: 7px;
+}
+.button_read2{
+	margin-top: 14px;
+	width: 100px;
+	height: 30px;
+	background-color: gold;
+	color: black;
+	border-radius: 7px;
+}
+ 
+div.footer{
+	background-color: black;
+	height: 100px;
+	margin-top: 90px;
+
+}
+div.footer .footer_design{
+	color: white;
+	margin-top: 40px;
+	margin-left: 90px;
+	float: left;
+}
+div.footer .footer_design b{
+	color:gold;
+	text-decoration: none;
+	margin-left: 10px;
+}
+div.footer .aa{
+	float: right;
+	padding-top: 35px;
+	margin-right: 40px;
+	color: gold;
+}
+
+/*shop pages*/
+#shop_background{
+	background-image: url(images/blackbeer3.jpeg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+
+}
+div.beershop h2{
+	position: absolute;
+	top: 300px;
+	left: 370px;
+	color: gold;
+	font-family: great;
+	font-size: 25px;
+}
+
+div.beershop h1{
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	color: white;
+	font-size: 50px;
+}
+
+div#grid_beer{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color:white;
+	/*height: 500px;*/
+}
+
+div#grid_beer div{
+
+	border:1px solid #141417;
+	background-color: white;
+	margin-top: 8px;
+	text-align: center;
+	height: 250px;
+}
+
+div#grid_beer div.other{
+	padding-top: 40px;
+}
+
+div#grid_beer div.other img{
+	height:150px; 
+	width:150px;
+}
+
+div.aboutbeer img{
+	height:200px; 
+	width:200px;
+	margin-left: 90px;
+	margin-top:100px;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	float: left;
+
+}
+.about_text1{
+	position: relative;
+	top:100px;
+	 max-width: 90%;
+	left: 70px;
+
+}
+.about_text1 h2{
+	color:gold;
+	font-family: great;
+}
+.clear{
+	clear: both;
+}
+
+div.aboutbeer1 img{
+	height:200px; 
+	width:200px;
+	margin-right: 90px;
+	margin-left: 90px;
+	margin-top:100px;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	float: right;
+
+}
+.about_text2{
+	position: relative;
+	top:100px;
+	 max-width: 90%;
+	right: 70px;
+	left: 70px;
+
+
+}
+.about_text2 h2{
+	color:gold;
+	font-family: great;
+}
+.clear{
+	clear: both;
+}
+.h1{
+	padding-top: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 4px gold;
+	/*x,y*/
+	text-transform: capitalize;
+
+}
+
+div.aboutbeer2 img{
+	height:200px; 
+	width:200px;
+	margin-left: 90px;
+	margin-top:100px;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	float: left;
+
+}
+.about_text3{
+	position: relative;
+	top:100px;
+	 max-width: 90%;
+	left: 70px;
+
+}
+.about_text3 h2{
+	color:gold;
+	font-family: great;
+}
+.clear{
+	clear: both;
+}
+
+div.aboutbeer3 img{
+	height:200px; 
+	width:200px;
+	margin-right: 90px;
+	margin-left: 90px;
+	margin-top:100px;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	float: right;
+
+}
+.about_text4{
+	position: relative;
+	top:100px;
+	 max-width: 90%;
+	right: 70px;
+	left: 70px;
+
+
+}
+.about_text4 h2{
+	color:gold;
+	font-family: great;
+}
+.clear{
+	clear: both;
+}
+
+.contact_us{
+	padding-top: 30px;
+	margin-left: 30px;
+}
+
+/*div.follow{
+	background-color: black;
+	height: 100px;
+	margin-top: 90px;
+
+}*/
+
+div.follow .bb{
+	/*float: right;*/
+	/*padding-top: 35px;*/
+	/*margin-left: 30px;*/
+	margin-right: 20px;
+	color: gold;
+}
+
+
